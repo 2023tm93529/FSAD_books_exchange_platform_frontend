@@ -1,0 +1,42 @@
+.navbar {
+  width: 96vw; /* Full viewport width */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0; /* Align to the left edge */
+  z-index: 1;
+}
+
+.navbar-title {
+  font-size: 1em;
+  margin: 0;
+  color: white;
+}
+
+.navbar input[type="text"] {
+  padding: 8px;
+  font-size: 1em;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+}
+
+
+.logout-button {
+  padding: 10px;
+  font-size: 1em;
+  border: none;
+  background: none;
+  color: white; /* Set button text color */
+  cursor: pointer;
+  text-decoration: none; /* Underline for visual indication */
+}
+
+.logout-button:hover {
+  color: #f1f1f1; /* Add a hover effect for visibility */
+}
